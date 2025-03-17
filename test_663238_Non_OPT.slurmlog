@@ -1,0 +1,349 @@
+We are running on soctf-pdc-004.d1.comp.nus.edu.sg
+Job started at Mon Mar  3 11:33:01 AM +08 2025
+g++ -Wall -Wextra -Werror -pedantic -std=c++20 -fopenmp -DCHECK=1 -O3 -c sim.cc -o sim.o
+sim.cc: In function ‘bool resolve_wall_collisions(std::vector<std::vector<Particle*> >&, int, int, int)’:
+sim.cc:24:45: error: invalid form of ‘#pragma omp atomic’ before ‘;’ token
+   24 |                     collisionOccurred = true;
+      |                                             ^
+sim.cc: In function ‘bool resolve_adjacent_collisions(std::vector<std::pair<Particle*, Particle*> >&)’:
+sim.cc:42:37: error: invalid form of ‘#pragma omp atomic’ before ‘;’ token
+   42 |             collisionOccurred = true;
+      |                                     ^
+make: *** [Makefile:27: sim.o] Error 1
+Running perf stat on tests/large/100k_density_0.9_fixed.in with 8 threads
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 8
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 8
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 8
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 8
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 8
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 8' (5 runs):
+
+         75,087.00 msec task-clock                #    6.279 CPUs utilized            ( +-  0.37% )
+   183,063,551,711      cycles                    #    2.451 GHz                      ( +-  0.43% )
+    85,323,192,832      instructions              #    0.47  insn per cycle           ( +-  0.03% )
+        42,525,649      cache-misses              #    1.541 % of all cache refs      ( +-  3.78% )
+     2,773,025,586      cache-references          #   37.134 M/sec                    ( +-  0.46% )
+
+           11.9579 +- 0.0629 seconds time elapsed  ( +-  0.53% )
+
+Running perf stat on tests/large/100k_density_0.9_fixed.in with 9 threads
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 9
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 9
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 9
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 9
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 9
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 9' (5 runs):
+
+         79,418.10 msec task-clock                #    6.767 CPUs utilized            ( +-  0.62% )
+   185,718,353,601      cycles                    #    2.307 GHz                      ( +-  0.90% )
+    86,504,012,963      instructions              #    0.46  insn per cycle           ( +-  0.08% )
+        37,715,690      cache-misses              #    1.434 % of all cache refs      ( +-  2.77% )
+     2,625,961,487      cache-references          #   32.619 M/sec                    ( +-  0.33% )
+
+            11.736 +- 0.103 seconds time elapsed  ( +-  0.88% )
+
+Running perf stat on tests/large/100k_density_0.9_fixed.in with 10 threads
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 10
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 10
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 10
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 10
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 10
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 10' (5 runs):
+
+         87,394.13 msec task-clock                #    7.474 CPUs utilized            ( +-  0.59% )
+   204,243,923,036      cycles                    #    2.373 GHz                      ( +-  0.98% )
+    85,772,169,162      instructions              #    0.43  insn per cycle           ( +-  0.06% )
+        37,444,572      cache-misses              #    1.522 % of all cache refs      ( +-  1.44% )
+     2,464,755,838      cache-references          #   28.637 M/sec                    ( +-  0.41% )
+
+           11.6934 +- 0.0977 seconds time elapsed  ( +-  0.84% )
+
+Running perf stat on tests/large/100k_density_0.9_fixed.in with 11 threads
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 11
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 11
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 11
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 11
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 11
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 11' (5 runs):
+
+         96,154.08 msec task-clock                #    8.048 CPUs utilized            ( +-  0.27% )
+   222,647,336,472      cycles                    #    2.318 GHz                      ( +-  0.59% )
+    87,604,272,886      instructions              #    0.39  insn per cycle           ( +-  0.08% )
+        36,966,560      cache-misses              #    1.513 % of all cache refs      ( +-  1.97% )
+     2,482,862,873      cache-references          #   25.854 M/sec                    ( +-  0.48% )
+
+           11.9473 +- 0.0343 seconds time elapsed  ( +-  0.29% )
+
+Running perf stat on tests/large/100k_density_0.9_fixed.in with 16 threads
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 16
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 16
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 16
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 16
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 16
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 16' (5 runs):
+
+        122,767.23 msec task-clock                #   10.600 CPUs utilized            ( +-  1.21% )
+   282,565,898,705      cycles                    #    2.281 GHz                      ( +-  1.19% )
+    88,992,094,878      instructions              #    0.31  insn per cycle           ( +-  0.14% )
+        39,623,946      cache-misses              #    1.639 % of all cache refs      ( +-  1.36% )
+     2,401,205,809      cache-references          #   19.384 M/sec                    ( +-  0.76% )
+
+            11.582 +- 0.149 seconds time elapsed  ( +-  1.29% )
+
+Running perf stat on tests/large/100k_density_0.9_fixed.in with 17 threads
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 17
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 17
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 17
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 17
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 17
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 17' (5 runs):
+
+        130,017.29 msec task-clock                #   11.407 CPUs utilized            ( +-  0.75% )
+   298,839,663,097      cycles                    #    2.347 GHz                      ( +-  0.73% )
+    89,251,120,362      instructions              #    0.30  insn per cycle           ( +-  0.11% )
+        37,209,541      cache-misses              #    1.527 % of all cache refs      ( +-  1.93% )
+     2,455,692,534      cache-references          #   19.284 M/sec                    ( +-  0.44% )
+
+           11.3975 +- 0.0821 seconds time elapsed  ( +-  0.72% )
+
+Running perf stat on tests/large/100k_density_0.9_fixed.in with 20 threads
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 20
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 20
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 20
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 20
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 20
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 20' (5 runs):
+
+        152,679.59 msec task-clock                #   12.906 CPUs utilized            ( +-  0.86% )
+   343,992,288,515      cycles                    #    2.231 GHz                      ( +-  0.70% )
+    91,864,356,835      instructions              #    0.26  insn per cycle           ( +-  0.38% )
+        35,272,408      cache-misses              #    1.452 % of all cache refs      ( +-  3.42% )
+     2,447,495,488      cache-references          #   15.875 M/sec                    ( +-  0.87% )
+
+            11.830 +- 0.150 seconds time elapsed  ( +-  1.27% )
+
+Running perf stat on tests/large/100k_density_0.9_fixed.in with 21 threads
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 21
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 21
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 21
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 21
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 21
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 21' (5 runs):
+
+        148,080.37 msec task-clock                #    6.522 CPUs utilized            ( +-  0.37% )
+   164,268,378,698      cycles                    #    1.107 GHz                      ( +-  0.66% )
+    91,402,271,433      instructions              #    0.55  insn per cycle           ( +-  0.50% )
+        58,728,480      cache-misses              #    2.013 % of all cache refs      ( +-  1.43% )
+     2,908,727,910      cache-references          #   19.605 M/sec                    ( +-  0.46% )
+
+           22.7038 +- 0.0900 seconds time elapsed  ( +-  0.40% )
+
+Job ended at Mon Mar  3 11:41:48 AM +08 2025

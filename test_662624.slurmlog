@@ -1,0 +1,484 @@
+We are running on soctf-pdc-004.d1.comp.nus.edu.sg
+Job started at Sun Mar  2 11:34:57 PM +08 2025
+make: Nothing to be done for 'all'.
+Running perf stat on tests/standard/10k_density_0.7.in with 8 threads
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 8
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 8
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 8
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.7.in 8' (3 runs):
+
+          4,442.02 msec task-clock                #    7.371 CPUs utilized            ( +-  1.75% )
+    11,321,385,901      cycles                    #    2.545 GHz                      ( +-  1.53% )
+     1,859,241,047      instructions              #    0.17  insn per cycle           ( +-  0.25% )
+            53,787      cache-misses              #    0.165 % of all cache refs      ( +-  6.92% )
+        33,043,539      cache-references          #    7.427 M/sec                    ( +-  1.42% )
+
+            0.6026 +- 0.0144 seconds time elapsed  ( +-  2.40% )
+
+Running perf stat on tests/standard/10k_density_0.7.in with 9 threads
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 9
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 9
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 9
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.7.in 9' (3 runs):
+
+          4,963.71 msec task-clock                #    8.199 CPUs utilized            ( +-  2.07% )
+    12,202,688,036      cycles                    #    2.364 GHz                      ( +-  0.92% )
+     1,922,195,521      instructions              #    0.16  insn per cycle           ( +-  0.23% )
+            50,620      cache-misses              #    0.150 % of all cache refs      ( +-  6.47% )
+        34,818,063      cache-references          #    6.744 M/sec                    ( +-  2.07% )
+
+            0.6054 +- 0.0176 seconds time elapsed  ( +-  2.90% )
+
+Running perf stat on tests/standard/10k_density_0.7.in with 10 threads
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 10
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 10
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 10
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.7.in 10' (3 runs):
+
+          5,680.01 msec task-clock                #    9.670 CPUs utilized            ( +-  0.86% )
+    13,906,676,867      cycles                    #    2.484 GHz                      ( +-  1.40% )
+     1,993,547,815      instructions              #    0.15  insn per cycle           ( +-  0.30% )
+            46,281      cache-misses              #    0.139 % of all cache refs      ( +-  7.37% )
+        33,784,160      cache-references          #    6.035 M/sec                    ( +-  0.61% )
+
+           0.58736 +- 0.00497 seconds time elapsed  ( +-  0.85% )
+
+Running perf stat on tests/standard/10k_density_0.7.in with 11 threads
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 11
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 11
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 11
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.7.in 11' (3 runs):
+
+          6,334.43 msec task-clock                #   10.305 CPUs utilized            ( +-  2.04% )
+    15,626,510,023      cycles                    #    2.413 GHz                      ( +-  1.46% )
+     2,073,920,654      instructions              #    0.13  insn per cycle           ( +-  0.38% )
+            47,852      cache-misses              #    0.145 % of all cache refs      ( +-  5.69% )
+        32,645,986      cache-references          #    5.041 M/sec                    ( +-  1.74% )
+
+            0.6147 +- 0.0166 seconds time elapsed  ( +-  2.70% )
+
+Running perf stat on tests/standard/10k_density_0.7.in with 16 threads
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 16
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 16
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 16
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.7.in 16' (3 runs):
+
+          9,633.36 msec task-clock                #   15.283 CPUs utilized            ( +-  0.73% )
+    23,610,224,316      cycles                    #    2.454 GHz                      ( +-  1.25% )
+     2,428,823,950      instructions              #    0.10  insn per cycle           ( +-  0.44% )
+            55,767      cache-misses              #    0.168 % of all cache refs      ( +-  7.40% )
+        33,014,504      cache-references          #    3.431 M/sec                    ( +-  1.42% )
+
+           0.63032 +- 0.00341 seconds time elapsed  ( +-  0.54% )
+
+Running perf stat on tests/standard/10k_density_0.7.in with 17 threads
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 17
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 17
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 17
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.7.in 17' (3 runs):
+
+         10,095.94 msec task-clock                #   15.865 CPUs utilized            ( +-  1.84% )
+    24,857,492,576      cycles                    #    2.399 GHz                      ( +-  1.34% )
+     2,483,741,122      instructions              #    0.10  insn per cycle           ( +-  0.56% )
+            58,288      cache-misses              #    0.164 % of all cache refs      ( +-  1.60% )
+        33,613,944      cache-references          #    3.245 M/sec                    ( +-  3.03% )
+
+            0.6363 +- 0.0121 seconds time elapsed  ( +-  1.90% )
+
+Running perf stat on tests/standard/10k_density_0.7.in with 20 threads
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 20
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 20
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 20
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.7.in 20' (3 runs):
+
+         13,691.90 msec task-clock                #   19.833 CPUs utilized            ( +-  2.17% )
+    33,212,676,120      cycles                    #    2.533 GHz                      ( +-  1.80% )
+     2,868,833,740      instructions              #    0.09  insn per cycle           ( +-  0.97% )
+            76,103      cache-misses              #    0.204 % of all cache refs      ( +-  8.18% )
+        39,327,037      cache-references          #    2.999 M/sec                    ( +-  2.76% )
+
+            0.6903 +- 0.0212 seconds time elapsed  ( +-  3.07% )
+
+Running perf stat on tests/standard/10k_density_0.7.in with 21 threads
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 21
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 21
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 21
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.7.in 21' (3 runs):
+
+          8,857.22 msec task-clock                #    4.749 CPUs utilized            ( +-  0.28% )
+     7,970,919,542      cycles                    #    0.900 GHz                      ( +-  0.59% )
+     2,573,574,630      instructions              #    0.32  insn per cycle           ( +-  0.10% )
+            87,242      cache-misses              #    0.167 % of all cache refs      ( +-  3.64% )
+        51,459,075      cache-references          #    5.809 M/sec                    ( +-  0.71% )
+
+           1.86521 +- 0.00614 seconds time elapsed  ( +-  0.33% )
+
+Running perf stat on tests/standard/10k_density_0.9.in with 8 threads
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 8
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 8
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 8
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.9.in 8' (3 runs):
+
+          7,871.61 msec task-clock                #    7.632 CPUs utilized            ( +-  0.39% )
+    19,891,849,700      cycles                    #    2.509 GHz                      ( +-  0.45% )
+     5,763,947,661      instructions              #    0.29  insn per cycle           ( +-  0.09% )
+            68,701      cache-misses              #    0.080 % of all cache refs      ( +-  2.77% )
+        87,449,868      cache-references          #   11.030 M/sec                    ( +-  1.02% )
+
+           1.03139 +- 0.00384 seconds time elapsed  ( +-  0.37% )
+
+Running perf stat on tests/standard/10k_density_0.9.in with 9 threads
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 9
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 9
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 9
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.9.in 9' (3 runs):
+
+          8,915.62 msec task-clock                #    8.641 CPUs utilized            ( +-  0.37% )
+    21,439,015,548      cycles                    #    2.397 GHz                      ( +-  0.29% )
+     5,604,462,321      instructions              #    0.26  insn per cycle           ( +-  0.06% )
+            71,666      cache-misses              #    0.085 % of all cache refs      ( +-  1.40% )
+        84,249,386      cache-references          #    9.419 M/sec                    ( +-  0.11% )
+
+           1.03178 +- 0.00126 seconds time elapsed  ( +-  0.12% )
+
+Running perf stat on tests/standard/10k_density_0.9.in with 10 threads
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 10
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 10
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 10
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.9.in 10' (3 runs):
+
+          9,507.44 msec task-clock                #    9.467 CPUs utilized            ( +-  0.87% )
+    22,832,825,294      cycles                    #    2.365 GHz                      ( +-  1.17% )
+     5,799,914,284      instructions              #    0.25  insn per cycle           ( +-  0.12% )
+            66,226      cache-misses              #    0.078 % of all cache refs      ( +-  2.37% )
+        84,671,187      cache-references          #    8.772 M/sec                    ( +-  0.28% )
+
+           1.00432 +- 0.00449 seconds time elapsed  ( +-  0.45% )
+
+Running perf stat on tests/standard/10k_density_0.9.in with 11 threads
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 11
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 11
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 11
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.9.in 11' (3 runs):
+
+         10,999.89 msec task-clock                #   10.407 CPUs utilized            ( +-  0.86% )
+    26,970,320,172      cycles                    #    2.413 GHz                      ( +-  0.50% )
+     6,045,251,187      instructions              #    0.22  insn per cycle           ( +-  0.10% )
+            68,113      cache-misses              #    0.081 % of all cache refs      ( +-  3.04% )
+        83,183,035      cache-references          #    7.443 M/sec                    ( +-  0.44% )
+
+           1.05693 +- 0.00801 seconds time elapsed  ( +-  0.76% )
+
+Running perf stat on tests/standard/10k_density_0.9.in with 16 threads
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 16
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 16
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 16
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.9.in 16' (3 runs):
+
+         16,548.35 msec task-clock                #   15.724 CPUs utilized            ( +-  0.57% )
+    40,669,809,836      cycles                    #    2.482 GHz                      ( +-  0.71% )
+     6,770,669,922      instructions              #    0.17  insn per cycle           ( +-  0.16% )
+            75,642      cache-misses              #    0.082 % of all cache refs      ( +-  1.90% )
+        93,124,957      cache-references          #    5.683 M/sec                    ( +-  2.06% )
+
+           1.05240 +- 0.00357 seconds time elapsed  ( +-  0.34% )
+
+Running perf stat on tests/standard/10k_density_0.9.in with 17 threads
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 17
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 17
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 17
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.9.in 17' (3 runs):
+
+         17,941.22 msec task-clock                #   16.779 CPUs utilized            ( +-  0.99% )
+    41,814,526,447      cycles                    #    2.369 GHz                      ( +-  1.16% )
+     6,874,160,158      instructions              #    0.16  insn per cycle           ( +-  0.28% )
+            67,420      cache-misses              #    0.073 % of all cache refs      ( +-  7.49% )
+        89,767,742      cache-references          #    5.086 M/sec                    ( +-  1.51% )
+
+           1.06924 +- 0.00552 seconds time elapsed  ( +-  0.52% )
+
+Running perf stat on tests/standard/10k_density_0.9.in with 20 threads
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 20
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 20
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 20
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.9.in 20' (3 runs):
+
+         21,007.61 msec task-clock                #   19.336 CPUs utilized            ( +-  0.50% )
+    51,795,461,541      cycles                    #    2.466 GHz                      ( +-  0.28% )
+     7,124,528,069      instructions              #    0.14  insn per cycle           ( +-  0.22% )
+            87,733      cache-misses              #    0.097 % of all cache refs      ( +-  4.10% )
+        89,542,680      cache-references          #    4.262 M/sec                    ( +-  1.06% )
+
+            1.0865 +- 0.0119 seconds time elapsed  ( +-  1.09% )
+
+Running perf stat on tests/standard/10k_density_0.9.in with 21 threads
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 21
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 21
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 21
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.9.in 21' (3 runs):
+
+         32,028.78 msec task-clock                #    6.530 CPUs utilized            ( +-  0.05% )
+    29,258,747,017      cycles                    #    0.913 GHz                      ( +-  0.10% )
+    10,527,385,776      instructions              #    0.36  insn per cycle           ( +-  0.20% )
+           167,671      cache-misses              #    0.097 % of all cache refs      ( +-  3.65% )
+       170,513,826      cache-references          #    5.321 M/sec                    ( +-  0.72% )
+
+           4.90482 +- 0.00997 seconds time elapsed  ( +-  0.20% )
+
+Job ended at Sun Mar  2 11:35:57 PM +08 2025

@@ -1,0 +1,33 @@
+We are running on soctf-pdc-005.d1.comp.nus.edu.sg
+Job started at Sun Mar  2 06:02:46 PM +08 2025
+Arguments to srun: 
+g++ -Wall -Wextra -Werror -pedantic -std=c++20 -fopenmp -DCHECK=1 -O3 -c sim.cc -o sim.o
+g++ -Wall -Wextra -Werror -pedantic -std=c++20 -fopenmp -DCHECK=1 -O3 -c io.cc -o io.o
+g++ -Wall -Wextra -Werror -pedantic -std=c++20 -fopenmp -DCHECK=1 -O3 -o sim sim.o io.o sim_validator.a
+g++ -Wall -Wextra -Werror -pedantic -std=c++20 -fopenmp -DCHECK=0 -O3 -c sim.cc -o sim.o.perf
+g++ -Wall -Wextra -Werror -pedantic -std=c++20 -fopenmp -DCHECK=0 -O3 -o sim.perf sim.o.perf io.o
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 20
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 20':
+
+        154,289.29 msec task-clock                #   13.033 CPUs utilized          
+             4,782      context-switches          #   30.994 /sec                   
+                68      cpu-migrations            #    0.441 /sec                   
+            87,997      page-faults               #  570.338 /sec                   
+   352,651,531,462      cycles                    #    2.286 GHz                    
+    93,104,133,130      instructions              #    0.26  insn per cycle         
+    11,898,819,973      branches                  #   77.120 M/sec                  
+       269,476,106      branch-misses             #    2.26% of all branches        
+
+      11.838523852 seconds time elapsed
+
+     154.055252000 seconds user
+       0.279885000 seconds sys
+
+
+Job ended at Sun Mar  2 06:03:02 PM +08 2025

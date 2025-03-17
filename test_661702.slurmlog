@@ -1,0 +1,1504 @@
+We are running on soctf-pdc-020.d1.comp.nus.edu.sg
+Job started at Sun Mar  2 07:38:28 PM +08 2025
+make: Nothing to be done for 'all'.
+Running perf stat on tests/large/100k_density_0.7_fixed.in with 8 threads
+<INPUT_PATH>: tests/large/100k_density_0.7_fixed.in
+<NUM_THREADS>: 8
+Number of particles: 100000
+Square size: 10000
+Radius: 15
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.7_fixed.in 8':
+
+         16,619.20 msec task-clock                #    6.407 CPUs utilized          
+             1,104      context-switches          #   66.429 /sec                   
+                10      cpu-migrations            #    0.602 /sec                   
+            13,498      page-faults               #  812.193 /sec                   
+    74,443,319,642      cycles                    #    4.479 GHz                    
+    16,983,529,394      instructions              #    0.23  insn per cycle         
+     2,976,612,051      branches                  #  179.107 M/sec                  
+       104,589,042      branch-misses             #    3.51% of all branches        
+
+       2.593834331 seconds time elapsed
+
+      16.609580000 seconds user
+       0.012024000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.7_fixed.in with 9 threads
+<INPUT_PATH>: tests/large/100k_density_0.7_fixed.in
+<NUM_THREADS>: 9
+Number of particles: 100000
+Square size: 10000
+Radius: 15
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.7_fixed.in 9':
+
+          8,558.57 msec task-clock                #    3.144 CPUs utilized          
+            64,851      context-switches          #    7.577 K/sec                  
+             9,213      cpu-migrations            #    1.076 K/sec                  
+            13,497      page-faults               #    1.577 K/sec                  
+    38,140,446,331      cycles                    #    4.456 GHz                    
+    15,854,137,071      instructions              #    0.42  insn per cycle         
+     2,626,659,140      branches                  #  306.904 M/sec                  
+       107,040,891      branch-misses             #    4.08% of all branches        
+
+       2.722080794 seconds time elapsed
+
+       8.275769000 seconds user
+       0.330876000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.7_fixed.in with 10 threads
+<INPUT_PATH>: tests/large/100k_density_0.7_fixed.in
+<NUM_THREADS>: 10
+Number of particles: 100000
+Square size: 10000
+Radius: 15
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.7_fixed.in 10':
+
+          8,292.51 msec task-clock                #    3.195 CPUs utilized          
+            71,096      context-switches          #    8.574 K/sec                  
+            14,381      cpu-migrations            #    1.734 K/sec                  
+            13,500      page-faults               #    1.628 K/sec                  
+    37,041,688,425      cycles                    #    4.467 GHz                    
+    15,866,170,800      instructions              #    0.43  insn per cycle         
+     2,629,835,173      branches                  #  317.134 M/sec                  
+       106,004,460      branch-misses             #    4.03% of all branches        
+
+       2.595851519 seconds time elapsed
+
+       8.105047000 seconds user
+       0.235217000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.7_fixed.in with 11 threads
+<INPUT_PATH>: tests/large/100k_density_0.7_fixed.in
+<NUM_THREADS>: 11
+Number of particles: 100000
+Square size: 10000
+Radius: 15
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.7_fixed.in 11':
+
+          8,290.16 msec task-clock                #    3.173 CPUs utilized          
+            78,195      context-switches          #    9.432 K/sec                  
+            17,037      cpu-migrations            #    2.055 K/sec                  
+            13,499      page-faults               #    1.628 K/sec                  
+    37,004,917,546      cycles                    #    4.464 GHz                    
+    15,931,452,293      instructions              #    0.43  insn per cycle         
+     2,642,047,461      branches                  #  318.697 M/sec                  
+       106,926,169      branch-misses             #    4.05% of all branches        
+
+       2.612327906 seconds time elapsed
+
+       8.067116000 seconds user
+       0.272012000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.7_fixed.in with 15 threads
+<INPUT_PATH>: tests/large/100k_density_0.7_fixed.in
+<NUM_THREADS>: 15
+Number of particles: 100000
+Square size: 10000
+Radius: 15
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.7_fixed.in 15':
+
+          8,662.68 msec task-clock                #    3.152 CPUs utilized          
+           113,056      context-switches          #   13.051 K/sec                  
+            23,395      cpu-migrations            #    2.701 K/sec                  
+            13,509      page-faults               #    1.559 K/sec                  
+    38,637,309,739      cycles                    #    4.460 GHz                    
+    16,257,191,541      instructions              #    0.42  insn per cycle         
+     2,714,625,056      branches                  #  313.370 M/sec                  
+       109,622,777      branch-misses             #    4.04% of all branches        
+
+       2.748387093 seconds time elapsed
+
+       8.377624000 seconds user
+       0.345631000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.7_fixed.in with 16 threads
+<INPUT_PATH>: tests/large/100k_density_0.7_fixed.in
+<NUM_THREADS>: 16
+Number of particles: 100000
+Square size: 10000
+Radius: 15
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.7_fixed.in 16':
+
+          8,482.34 msec task-clock                #    3.130 CPUs utilized          
+           120,449      context-switches          #   14.200 K/sec                  
+            26,200      cpu-migrations            #    3.089 K/sec                  
+            13,510      page-faults               #    1.593 K/sec                  
+    37,819,095,850      cycles                    #    4.459 GHz                    
+    16,305,345,851      instructions              #    0.43  insn per cycle         
+     2,724,572,007      branches                  #  321.205 M/sec                  
+       109,029,115      branch-misses             #    4.00% of all branches        
+
+       2.710081734 seconds time elapsed
+
+       8.228887000 seconds user
+       0.317577000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.7_fixed.in with 17 threads
+<INPUT_PATH>: tests/large/100k_density_0.7_fixed.in
+<NUM_THREADS>: 17
+Number of particles: 100000
+Square size: 10000
+Radius: 15
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.7_fixed.in 17':
+
+          8,784.72 msec task-clock                #    3.146 CPUs utilized          
+           128,862      context-switches          #   14.669 K/sec                  
+            28,500      cpu-migrations            #    3.244 K/sec                  
+            13,514      page-faults               #    1.538 K/sec                  
+    39,182,702,224      cycles                    #    4.460 GHz                    
+    16,454,212,316      instructions              #    0.42  insn per cycle         
+     2,755,693,188      branches                  #  313.692 M/sec                  
+       109,764,755      branch-misses             #    3.98% of all branches        
+
+       2.792533401 seconds time elapsed
+
+       8.458541000 seconds user
+       0.393420000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.7_fixed.in with 19 threads
+<INPUT_PATH>: tests/large/100k_density_0.7_fixed.in
+<NUM_THREADS>: 19
+Number of particles: 100000
+Square size: 10000
+Radius: 15
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.7_fixed.in 19':
+
+          8,774.84 msec task-clock                #    3.149 CPUs utilized          
+           143,597      context-switches          #   16.365 K/sec                  
+            31,392      cpu-migrations            #    3.578 K/sec                  
+            13,517      page-faults               #    1.540 K/sec                  
+    39,096,526,107      cycles                    #    4.456 GHz                    
+    16,518,216,166      instructions              #    0.42  insn per cycle         
+     2,774,155,205      branches                  #  316.149 M/sec                  
+       110,419,237      branch-misses             #    3.98% of all branches        
+
+       2.786680075 seconds time elapsed
+
+       8.530434000 seconds user
+       0.317707000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.7_fixed.in with 20 threads
+<INPUT_PATH>: tests/large/100k_density_0.7_fixed.in
+<NUM_THREADS>: 20
+Number of particles: 100000
+Square size: 10000
+Radius: 15
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.7_fixed.in 20':
+
+          8,259.02 msec task-clock                #    3.105 CPUs utilized          
+           150,475      context-switches          #   18.219 K/sec                  
+            31,980      cpu-migrations            #    3.872 K/sec                  
+            13,522      page-faults               #    1.637 K/sec                  
+    36,773,793,906      cycles                    #    4.453 GHz                    
+    16,494,541,613      instructions              #    0.45  insn per cycle         
+     2,764,408,397      branches                  #  334.714 M/sec                  
+       107,358,035      branch-misses             #    3.88% of all branches        
+
+       2.659639442 seconds time elapsed
+
+       7.919099000 seconds user
+       0.414302000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.7_fixed.in with 21 threads
+<INPUT_PATH>: tests/large/100k_density_0.7_fixed.in
+<NUM_THREADS>: 21
+Number of particles: 100000
+Square size: 10000
+Radius: 15
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.7_fixed.in 21':
+
+          9,009.87 msec task-clock                #    3.134 CPUs utilized          
+           160,310      context-switches          #   17.793 K/sec                  
+            33,620      cpu-migrations            #    3.731 K/sec                  
+            13,522      page-faults               #    1.501 K/sec                  
+    40,090,299,406      cycles                    #    4.450 GHz                    
+    16,744,696,204      instructions              #    0.42  insn per cycle         
+     2,822,300,502      branches                  #  313.246 M/sec                  
+       111,155,837      branch-misses             #    3.94% of all branches        
+
+       2.875237347 seconds time elapsed
+
+       8.680369000 seconds user
+       0.407620000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.8_fixed.in with 8 threads
+<INPUT_PATH>: tests/large/100k_density_0.8_fixed.in
+<NUM_THREADS>: 8
+Number of particles: 100000
+Square size: 10000
+Radius: 16
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.8_fixed.in 8':
+
+         19,151.55 msec task-clock                #    6.327 CPUs utilized          
+             1,099      context-switches          #   57.384 /sec                   
+                 9      cpu-migrations            #    0.470 /sec                   
+            18,370      page-faults               #  959.191 /sec                   
+    86,052,346,850      cycles                    #    4.493 GHz                    
+    23,992,043,227      instructions              #    0.28  insn per cycle         
+     3,725,814,570      branches                  #  194.544 M/sec                  
+       131,682,102      branch-misses             #    3.53% of all branches        
+
+       3.026916480 seconds time elapsed
+
+      19.117327000 seconds user
+       0.035912000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.8_fixed.in with 9 threads
+<INPUT_PATH>: tests/large/100k_density_0.8_fixed.in
+<NUM_THREADS>: 9
+Number of particles: 100000
+Square size: 10000
+Radius: 16
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.8_fixed.in 9':
+
+         10,838.12 msec task-clock                #    3.353 CPUs utilized          
+           110,511      context-switches          #   10.197 K/sec                  
+            16,157      cpu-migrations            #    1.491 K/sec                  
+            17,663      page-faults               #    1.630 K/sec                  
+    48,263,586,504      cycles                    #    4.453 GHz                    
+    22,449,493,851      instructions              #    0.47  insn per cycle         
+     3,360,012,650      branches                  #  310.018 M/sec                  
+       134,011,161      branch-misses             #    3.99% of all branches        
+
+       3.232173385 seconds time elapsed
+
+      10.620678000 seconds user
+       0.294147000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.8_fixed.in with 10 threads
+<INPUT_PATH>: tests/large/100k_density_0.8_fixed.in
+<NUM_THREADS>: 10
+Number of particles: 100000
+Square size: 10000
+Radius: 16
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.8_fixed.in 10':
+
+         11,630.86 msec task-clock                #    3.383 CPUs utilized          
+           123,157      context-switches          #   10.589 K/sec                  
+            25,738      cpu-migrations            #    2.213 K/sec                  
+            18,372      page-faults               #    1.580 K/sec                  
+    51,881,357,129      cycles                    #    4.461 GHz                    
+    22,804,831,134      instructions              #    0.44  insn per cycle         
+     3,434,912,349      branches                  #  295.327 M/sec                  
+       139,820,876      branch-misses             #    4.07% of all branches        
+
+       3.438361830 seconds time elapsed
+
+      11.382073000 seconds user
+       0.326700000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.8_fixed.in with 11 threads
+<INPUT_PATH>: tests/large/100k_density_0.8_fixed.in
+<NUM_THREADS>: 11
+Number of particles: 100000
+Square size: 10000
+Radius: 16
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.8_fixed.in 11':
+
+         11,052.91 msec task-clock                #    3.329 CPUs utilized          
+           131,335      context-switches          #   11.882 K/sec                  
+            28,570      cpu-migrations            #    2.585 K/sec                  
+            18,411      page-faults               #    1.666 K/sec                  
+    49,267,657,377      cycles                    #    4.457 GHz                    
+    22,410,758,909      instructions              #    0.45  insn per cycle         
+     3,389,946,108      branches                  #  306.702 M/sec                  
+       136,511,054      branch-misses             #    4.03% of all branches        
+
+       3.320259148 seconds time elapsed
+
+      10.624935000 seconds user
+       0.505380000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.8_fixed.in with 15 threads
+<INPUT_PATH>: tests/large/100k_density_0.8_fixed.in
+<NUM_THREADS>: 15
+Number of particles: 100000
+Square size: 10000
+Radius: 16
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.8_fixed.in 15':
+
+         11,164.76 msec task-clock                #    3.318 CPUs utilized          
+           203,913      context-switches          #   18.264 K/sec                  
+            40,093      cpu-migrations            #    3.591 K/sec                  
+            18,417      page-faults               #    1.650 K/sec                  
+    49,711,008,909      cycles                    #    4.452 GHz                    
+    23,715,614,455      instructions              #    0.48  insn per cycle         
+     3,587,219,489      branches                  #  321.299 M/sec                  
+       137,778,735      branch-misses             #    3.84% of all branches        
+
+       3.364751212 seconds time elapsed
+
+      10.606149000 seconds user
+       0.660182000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.8_fixed.in with 16 threads
+<INPUT_PATH>: tests/large/100k_density_0.8_fixed.in
+<NUM_THREADS>: 16
+Number of particles: 100000
+Square size: 10000
+Radius: 16
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.8_fixed.in 16':
+
+         12,132.39 msec task-clock                #    3.356 CPUs utilized          
+           213,140      context-switches          #   17.568 K/sec                  
+            44,294      cpu-migrations            #    3.651 K/sec                  
+            17,679      page-faults               #    1.457 K/sec                  
+    54,065,156,032      cycles                    #    4.456 GHz                    
+    23,636,989,331      instructions              #    0.44  insn per cycle         
+     3,618,394,306      branches                  #  298.243 M/sec                  
+       143,531,076      branch-misses             #    3.97% of all branches        
+
+       3.614726898 seconds time elapsed
+
+      11.724225000 seconds user
+       0.513556000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.8_fixed.in with 17 threads
+<INPUT_PATH>: tests/large/100k_density_0.8_fixed.in
+<NUM_THREADS>: 17
+Number of particles: 100000
+Square size: 10000
+Radius: 16
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.8_fixed.in 17':
+
+         11,767.17 msec task-clock                #    3.343 CPUs utilized          
+           215,773      context-switches          #   18.337 K/sec                  
+            45,723      cpu-migrations            #    3.886 K/sec                  
+            18,423      page-faults               #    1.566 K/sec                  
+    52,465,258,069      cycles                    #    4.459 GHz                    
+    23,078,964,929      instructions              #    0.44  insn per cycle         
+     3,555,363,817      branches                  #  302.143 M/sec                  
+       142,997,881      branch-misses             #    4.02% of all branches        
+
+       3.519849469 seconds time elapsed
+
+      11.384123000 seconds user
+       0.487500000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.8_fixed.in with 19 threads
+<INPUT_PATH>: tests/large/100k_density_0.8_fixed.in
+<NUM_THREADS>: 19
+Number of particles: 100000
+Square size: 10000
+Radius: 16
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.8_fixed.in 19':
+
+         11,651.59 msec task-clock                #    3.307 CPUs utilized          
+           243,913      context-switches          #   20.934 K/sec                  
+            50,734      cpu-migrations            #    4.354 K/sec                  
+            17,692      page-faults               #    1.518 K/sec                  
+    51,880,585,747      cycles                    #    4.453 GHz                    
+    23,336,973,080      instructions              #    0.45  insn per cycle         
+     3,602,254,197      branches                  #  309.164 M/sec                  
+       141,720,918      branch-misses             #    3.93% of all branches        
+
+       3.523583363 seconds time elapsed
+
+      11.089807000 seconds user
+       0.678239000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.8_fixed.in with 20 threads
+<INPUT_PATH>: tests/large/100k_density_0.8_fixed.in
+<NUM_THREADS>: 20
+Number of particles: 100000
+Square size: 10000
+Radius: 16
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.8_fixed.in 20':
+
+         11,479.03 msec task-clock                #    3.302 CPUs utilized          
+           276,708      context-switches          #   24.106 K/sec                  
+            55,589      cpu-migrations            #    4.843 K/sec                  
+            18,430      page-faults               #    1.606 K/sec                  
+    51,039,259,371      cycles                    #    4.446 GHz                    
+    24,391,043,342      instructions              #    0.48  insn per cycle         
+     3,737,493,470      branches                  #  325.593 M/sec                  
+       140,778,385      branch-misses             #    3.77% of all branches        
+
+       3.476149110 seconds time elapsed
+
+      10.882544000 seconds user
+       0.724183000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.8_fixed.in with 21 threads
+<INPUT_PATH>: tests/large/100k_density_0.8_fixed.in
+<NUM_THREADS>: 21
+Number of particles: 100000
+Square size: 10000
+Radius: 16
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.8_fixed.in 21':
+
+         11,954.21 msec task-clock                #    3.267 CPUs utilized          
+           271,964      context-switches          #   22.750 K/sec                  
+            53,989      cpu-migrations            #    4.516 K/sec                  
+            18,430      page-faults               #    1.542 K/sec                  
+    53,219,476,968      cycles                    #    4.452 GHz                    
+    23,700,250,224      instructions              #    0.45  insn per cycle         
+     3,677,505,637      branches                  #  307.633 M/sec                  
+       143,082,421      branch-misses             #    3.89% of all branches        
+
+       3.659042827 seconds time elapsed
+
+      11.209849000 seconds user
+       0.868313000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.9_fixed.in with 8 threads
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 8
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 8':
+
+         36,503.32 msec task-clock                #    6.473 CPUs utilized          
+             1,725      context-switches          #   47.256 /sec                   
+                 4      cpu-migrations            #    0.110 /sec                   
+            88,553      page-faults               #    2.426 K/sec                  
+   164,072,080,607      cycles                    #    4.495 GHz                    
+    85,007,965,262      instructions              #    0.52  insn per cycle         
+     9,795,676,061      branches                  #  268.350 M/sec                  
+       285,155,771      branch-misses             #    2.91% of all branches        
+
+       5.639545550 seconds time elapsed
+
+      36.425492000 seconds user
+       0.079971000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.9_fixed.in with 9 threads
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 9
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 9':
+
+         25,427.63 msec task-clock                #    3.740 CPUs utilized          
+           507,799      context-switches          #   19.970 K/sec                  
+            85,797      cpu-migrations            #    3.374 K/sec                  
+            88,527      page-faults               #    3.482 K/sec                  
+   112,190,778,219      cycles                    #    4.412 GHz                    
+    86,811,621,319      instructions              #    0.77  insn per cycle         
+     9,996,351,953      branches                  #  393.130 M/sec                  
+       295,771,641      branch-misses             #    2.96% of all branches        
+
+       6.798864084 seconds time elapsed
+
+      24.297918000 seconds user
+       1.476189000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.9_fixed.in with 10 threads
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 10
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 10':
+
+         26,032.55 msec task-clock                #    3.771 CPUs utilized          
+           548,619      context-switches          #   21.074 K/sec                  
+           123,093      cpu-migrations            #    4.728 K/sec                  
+            88,571      page-faults               #    3.402 K/sec                  
+   114,721,403,523      cycles                    #    4.407 GHz                    
+    87,649,271,941      instructions              #    0.76  insn per cycle         
+    10,130,311,747      branches                  #  389.140 M/sec                  
+       303,374,570      branch-misses             #    2.99% of all branches        
+
+       6.904002070 seconds time elapsed
+
+      24.699648000 seconds user
+       1.685116000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.9_fixed.in with 11 threads
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 11
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 11':
+
+         25,649.87 msec task-clock                #    3.750 CPUs utilized          
+           604,358      context-switches          #   23.562 K/sec                  
+           138,070      cpu-migrations            #    5.383 K/sec                  
+            88,558      page-faults               #    3.453 K/sec                  
+   112,999,789,832      cycles                    #    4.405 GHz                    
+    88,294,618,607      instructions              #    0.78  insn per cycle         
+    10,248,228,628      branches                  #  399.543 M/sec                  
+       300,346,842      branch-misses             #    2.93% of all branches        
+
+       6.839856581 seconds time elapsed
+
+      24.095825000 seconds user
+       1.908972000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.9_fixed.in with 15 threads
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 15
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 15':
+
+         28,080.88 msec task-clock                #    3.674 CPUs utilized          
+           892,545      context-switches          #   31.785 K/sec                  
+           184,848      cpu-migrations            #    6.583 K/sec                  
+            88,538      page-faults               #    3.153 K/sec                  
+   123,174,815,908      cycles                    #    4.386 GHz                    
+    91,124,117,760      instructions              #    0.74  insn per cycle         
+    10,876,639,105      branches                  #  387.332 M/sec                  
+       317,228,735      branch-misses             #    2.92% of all branches        
+
+       7.642418129 seconds time elapsed
+
+      25.963395000 seconds user
+       2.571993000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.9_fixed.in with 16 threads
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 16
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 16':
+
+         28,403.72 msec task-clock                #    3.648 CPUs utilized          
+           963,882      context-switches          #   33.935 K/sec                  
+           202,701      cpu-migrations            #    7.136 K/sec                  
+            88,528      page-faults               #    3.117 K/sec                  
+   124,795,382,051      cycles                    #    4.394 GHz                    
+    92,123,892,263      instructions              #    0.74  insn per cycle         
+    11,051,916,707      branches                  #  389.101 M/sec                  
+       320,177,912      branch-misses             #    2.90% of all branches        
+
+       7.785998799 seconds time elapsed
+
+      26.526996000 seconds user
+       2.360816000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.9_fixed.in with 17 threads
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 17
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 17':
+
+         27,946.83 msec task-clock                #    3.669 CPUs utilized          
+         1,032,270      context-switches          #   36.937 K/sec                  
+           218,654      cpu-migrations            #    7.824 K/sec                  
+            88,554      page-faults               #    3.169 K/sec                  
+   122,240,993,998      cycles                    #    4.374 GHz                    
+    92,762,501,583      instructions              #    0.76  insn per cycle         
+    11,156,506,713      branches                  #  399.205 M/sec                  
+       315,390,006      branch-misses             #    2.83% of all branches        
+
+       7.617963800 seconds time elapsed
+
+      25.361755000 seconds user
+       3.084961000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.9_fixed.in with 19 threads
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 19
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 19':
+
+         28,394.96 msec task-clock                #    3.641 CPUs utilized          
+         1,125,199      context-switches          #   39.627 K/sec                  
+           230,448      cpu-migrations            #    8.116 K/sec                  
+            88,567      page-faults               #    3.119 K/sec                  
+   124,339,667,346      cycles                    #    4.379 GHz                    
+    90,721,993,295      instructions              #    0.73  insn per cycle         
+    11,095,170,165      branches                  #  390.744 M/sec                  
+       318,341,373      branch-misses             #    2.87% of all branches        
+
+       7.797827722 seconds time elapsed
+
+      26.004542000 seconds user
+       2.916799000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.9_fixed.in with 20 threads
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 20
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 20':
+
+         30,643.19 msec task-clock                #    3.616 CPUs utilized          
+         1,266,077      context-switches          #   41.317 K/sec                  
+           253,907      cpu-migrations            #    8.286 K/sec                  
+            88,614      page-faults               #    2.892 K/sec                  
+   134,098,700,643      cycles                    #    4.376 GHz                    
+    96,652,585,727      instructions              #    0.72  insn per cycle         
+    11,843,757,111      branches                  #  386.505 M/sec                  
+       337,585,646      branch-misses             #    2.85% of all branches        
+
+       8.475242349 seconds time elapsed
+
+      27.966992000 seconds user
+       3.259384000 seconds sys
+
+
+Running perf stat on tests/large/100k_density_0.9_fixed.in with 21 threads
+<INPUT_PATH>: tests/large/100k_density_0.9_fixed.in
+<NUM_THREADS>: 21
+Number of particles: 100000
+Square size: 10000
+Radius: 17
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/large/100k_density_0.9_fixed.in 21':
+
+         29,715.29 msec task-clock                #    3.556 CPUs utilized          
+         1,289,734      context-switches          #   43.403 K/sec                  
+           251,009      cpu-migrations            #    8.447 K/sec                  
+            88,576      page-faults               #    2.981 K/sec                  
+   129,278,076,650      cycles                    #    4.351 GHz                    
+    93,998,587,858      instructions              #    0.73  insn per cycle         
+    11,592,614,742      branches                  #  390.123 M/sec                  
+       332,952,977      branch-misses             #    2.87% of all branches        
+
+       8.355695440 seconds time elapsed
+
+      26.865230000 seconds user
+       3.437289000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.7.in with 8 threads
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 8
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.7.in 8':
+
+          2,002.19 msec task-clock                #    7.325 CPUs utilized          
+               110      context-switches          #   54.940 /sec                   
+                 0      cpu-migrations            #    0.000 /sec                   
+             1,017      page-faults               #  507.945 /sec                   
+     8,604,074,187      cycles                    #    4.297 GHz                    
+     1,785,688,567      instructions              #    0.21  insn per cycle         
+       319,186,233      branches                  #  159.419 M/sec                  
+        11,598,077      branch-misses             #    3.63% of all branches        
+
+       0.273335011 seconds time elapsed
+
+       2.002917000 seconds user
+       0.000000000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.7.in with 9 threads
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 9
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.7.in 9':
+
+          1,466.53 msec task-clock                #    3.214 CPUs utilized          
+            57,145      context-switches          #   38.966 K/sec                  
+             8,496      cpu-migrations            #    5.793 K/sec                  
+               986      page-faults               #  672.335 /sec                   
+     4,820,929,501      cycles                    #    3.287 GHz                    
+     2,036,132,056      instructions              #    0.42  insn per cycle         
+       359,401,962      branches                  #  245.070 M/sec                  
+        13,784,188      branch-misses             #    3.84% of all branches        
+
+       0.456308694 seconds time elapsed
+
+       1.286534000 seconds user
+       0.243011000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.7.in with 10 threads
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 10
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.7.in 10':
+
+          1,580.87 msec task-clock                #    3.298 CPUs utilized          
+            60,101      context-switches          #   38.018 K/sec                  
+            14,571      cpu-migrations            #    9.217 K/sec                  
+             1,017      page-faults               #  643.317 /sec                   
+     5,080,910,071      cycles                    #    3.214 GHz                    
+     2,070,312,154      instructions              #    0.41  insn per cycle         
+       367,479,218      branches                  #  232.454 M/sec                  
+        13,971,792      branch-misses             #    3.80% of all branches        
+
+       0.479290801 seconds time elapsed
+
+       1.374937000 seconds user
+       0.266608000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.7.in with 11 threads
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 11
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.7.in 11':
+
+          1,241.22 msec task-clock                #    3.114 CPUs utilized          
+            66,726      context-switches          #   53.759 K/sec                  
+            17,728      cpu-migrations            #   14.283 K/sec                  
+             1,021      page-faults               #  822.580 /sec                   
+     5,133,204,438      cycles                    #    4.136 GHz                    
+     2,141,656,919      instructions              #    0.42  insn per cycle         
+       381,811,323      branches                  #  307.610 M/sec                  
+        14,232,897      branch-misses             #    3.73% of all branches        
+
+       0.398619995 seconds time elapsed
+
+       1.149426000 seconds user
+       0.138530000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.7.in with 15 threads
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 15
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.7.in 15':
+
+          1,286.89 msec task-clock                #    3.178 CPUs utilized          
+           103,089      context-switches          #   80.107 K/sec                  
+            23,350      cpu-migrations            #   18.145 K/sec                  
+             1,031      page-faults               #  801.156 /sec                   
+     5,614,687,090      cycles                    #    4.363 GHz                    
+     2,467,237,814      instructions              #    0.44  insn per cycle         
+       450,191,047      branches                  #  349.829 M/sec                  
+        15,049,856      branch-misses             #    3.34% of all branches        
+
+       0.404916873 seconds time elapsed
+
+       1.191884000 seconds user
+       0.150511000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.7.in with 16 threads
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 16
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.7.in 16':
+
+          1,633.54 msec task-clock                #    3.274 CPUs utilized          
+           110,658      context-switches          #   67.741 K/sec                  
+            28,632      cpu-migrations            #   17.528 K/sec                  
+               999      page-faults               #  611.555 /sec                   
+     5,940,145,339      cycles                    #    3.636 GHz                    
+     2,534,511,314      instructions              #    0.43  insn per cycle         
+       465,527,851      branches                  #  284.981 M/sec                  
+        15,446,565      branch-misses             #    3.32% of all branches        
+
+       0.498917728 seconds time elapsed
+
+       1.346133000 seconds user
+       0.355968000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.7.in with 17 threads
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 17
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.7.in 17':
+
+          1,627.35 msec task-clock                #    3.386 CPUs utilized          
+           118,181      context-switches          #   72.622 K/sec                  
+            31,169      cpu-migrations            #   19.153 K/sec                  
+             1,035      page-faults               #  636.003 /sec                   
+     6,121,022,330      cycles                    #    3.761 GHz                    
+     2,605,629,184      instructions              #    0.43  insn per cycle         
+       480,514,339      branches                  #  295.274 M/sec                  
+        15,474,046      branch-misses             #    3.22% of all branches        
+
+       0.480650570 seconds time elapsed
+
+       1.328112000 seconds user
+       0.370836000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.7.in with 19 threads
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 19
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.7.in 19':
+
+          1,597.54 msec task-clock                #    3.418 CPUs utilized          
+           136,515      context-switches          #   85.453 K/sec                  
+            32,496      cpu-migrations            #   20.341 K/sec                  
+             1,006      page-faults               #  629.719 /sec                   
+     6,360,111,287      cycles                    #    3.981 GHz                    
+     2,778,346,321      instructions              #    0.44  insn per cycle         
+       516,482,561      branches                  #  323.299 M/sec                  
+        15,553,720      branch-misses             #    3.01% of all branches        
+
+       0.467362029 seconds time elapsed
+
+       1.209344000 seconds user
+       0.462077000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.7.in with 20 threads
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 20
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.7.in 20':
+
+          1,712.24 msec task-clock                #    3.438 CPUs utilized          
+           145,585      context-switches          #   85.026 K/sec                  
+            34,303      cpu-migrations            #   20.034 K/sec                  
+             1,009      page-faults               #  589.287 /sec                   
+     6,675,697,966      cycles                    #    3.899 GHz                    
+     2,885,413,971      instructions              #    0.43  insn per cycle         
+       538,825,910      branches                  #  314.691 M/sec                  
+        15,950,190      branch-misses             #    2.96% of all branches        
+
+       0.498023178 seconds time elapsed
+
+       1.295253000 seconds user
+       0.495352000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.7.in with 21 threads
+<INPUT_PATH>: tests/standard/10k_density_0.7.in
+<NUM_THREADS>: 21
+Number of particles: 10000
+Square size: 10000
+Radius: 47
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.7.in 21':
+
+          1,715.91 msec task-clock                #    3.415 CPUs utilized          
+           148,410      context-switches          #   86.491 K/sec                  
+            33,315      cpu-migrations            #   19.415 K/sec                  
+             1,042      page-faults               #  607.259 /sec                   
+     6,717,742,759      cycles                    #    3.915 GHz                    
+     2,895,191,113      instructions              #    0.43  insn per cycle         
+       542,643,309      branches                  #  316.243 M/sec                  
+        16,081,506      branch-misses             #    2.96% of all branches        
+
+       0.502398753 seconds time elapsed
+
+       1.310892000 seconds user
+       0.482960000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.8.in with 8 threads
+<INPUT_PATH>: tests/standard/10k_density_0.8.in
+<NUM_THREADS>: 8
+Number of particles: 10000
+Square size: 10000
+Radius: 50
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.8.in 8':
+
+          2,247.36 msec task-clock                #    7.511 CPUs utilized          
+               166      context-switches          #   73.865 /sec                   
+                 0      cpu-migrations            #    0.000 /sec                   
+             1,430      page-faults               #  636.303 /sec                   
+    10,007,132,856      cycles                    #    4.453 GHz                    
+     2,198,428,698      instructions              #    0.22  insn per cycle         
+       368,919,105      branches                  #  164.157 M/sec                  
+        13,728,170      branch-misses             #    3.72% of all branches        
+
+       0.299204901 seconds time elapsed
+
+       2.247921000 seconds user
+       0.000000000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.8.in with 9 threads
+<INPUT_PATH>: tests/standard/10k_density_0.8.in
+<NUM_THREADS>: 9
+Number of particles: 10000
+Square size: 10000
+Radius: 50
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.8.in 9':
+
+          2,923.15 msec task-clock                #    3.500 CPUs utilized          
+            79,935      context-switches          #   27.345 K/sec                  
+            12,060      cpu-migrations            #    4.126 K/sec                  
+             1,432      page-faults               #  489.882 /sec                   
+     6,630,755,878      cycles                    #    2.268 GHz                    
+     2,620,552,005      instructions              #    0.40  insn per cycle         
+       447,073,176      branches                  #  152.942 M/sec                  
+        17,190,023      branch-misses             #    3.85% of all branches        
+
+       0.835201523 seconds time elapsed
+
+       2.435251000 seconds user
+       0.608812000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.8.in with 10 threads
+<INPUT_PATH>: tests/standard/10k_density_0.8.in
+<NUM_THREADS>: 10
+Number of particles: 10000
+Square size: 10000
+Radius: 50
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.8.in 10':
+
+          1,581.67 msec task-clock                #    3.322 CPUs utilized          
+            84,796      context-switches          #   53.612 K/sec                  
+            20,664      cpu-migrations            #   13.065 K/sec                  
+             1,431      page-faults               #  904.741 /sec                   
+     6,152,434,598      cycles                    #    3.890 GHz                    
+     2,661,673,532      instructions              #    0.43  insn per cycle         
+       453,523,340      branches                  #  286.737 M/sec                  
+        16,794,512      branch-misses             #    3.70% of all branches        
+
+       0.476169967 seconds time elapsed
+
+       1.251155000 seconds user
+       0.396441000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.8.in with 11 threads
+<INPUT_PATH>: tests/standard/10k_density_0.8.in
+<NUM_THREADS>: 11
+Number of particles: 10000
+Square size: 10000
+Radius: 50
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.8.in 11':
+
+          1,524.48 msec task-clock                #    3.423 CPUs utilized          
+            92,795      context-switches          #   60.870 K/sec                  
+            25,015      cpu-migrations            #   16.409 K/sec                  
+             1,403      page-faults               #  920.315 /sec                   
+     6,389,149,482      cycles                    #    4.191 GHz                    
+     2,752,772,480      instructions              #    0.43  insn per cycle         
+       472,131,635      branches                  #  309.701 M/sec                  
+        17,038,848      branch-misses             #    3.61% of all branches        
+
+       0.445391849 seconds time elapsed
+
+       1.294751000 seconds user
+       0.290583000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.8.in with 15 threads
+<INPUT_PATH>: tests/standard/10k_density_0.8.in
+<NUM_THREADS>: 15
+Number of particles: 10000
+Square size: 10000
+Radius: 50
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.8.in 15':
+
+          1,801.08 msec task-clock                #    3.439 CPUs utilized          
+           143,431      context-switches          #   79.636 K/sec                  
+            32,367      cpu-migrations            #   17.971 K/sec                  
+             1,447      page-faults               #  803.407 /sec                   
+     7,672,517,912      cycles                    #    4.260 GHz                    
+     3,236,900,805      instructions              #    0.42  insn per cycle         
+       575,499,610      branches                  #  319.530 M/sec                  
+        18,648,376      branch-misses             #    3.24% of all branches        
+
+       0.523798063 seconds time elapsed
+
+       1.443942000 seconds user
+       0.432410000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.8.in with 16 threads
+<INPUT_PATH>: tests/standard/10k_density_0.8.in
+<NUM_THREADS>: 16
+Number of particles: 10000
+Square size: 10000
+Radius: 50
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.8.in 16':
+
+          1,863.04 msec task-clock                #    3.570 CPUs utilized          
+           155,944      context-switches          #   83.704 K/sec                  
+            37,133      cpu-migrations            #   19.931 K/sec                  
+             1,415      page-faults               #  759.511 /sec                   
+     7,870,710,959      cycles                    #    4.225 GHz                    
+     3,345,851,498      instructions              #    0.43  insn per cycle         
+       598,735,089      branches                  #  321.375 M/sec                  
+        18,784,775      branch-misses             #    3.14% of all branches        
+
+       0.521889551 seconds time elapsed
+
+       1.452481000 seconds user
+       0.492436000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.8.in with 17 threads
+<INPUT_PATH>: tests/standard/10k_density_0.8.in
+<NUM_THREADS>: 17
+Number of particles: 10000
+Square size: 10000
+Radius: 50
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.8.in 17':
+
+          1,883.41 msec task-clock                #    3.495 CPUs utilized          
+           168,616      context-switches          #   89.527 K/sec                  
+            40,720      cpu-migrations            #   21.620 K/sec                  
+             1,417      page-faults               #  752.358 /sec                   
+     8,164,816,946      cycles                    #    4.335 GHz                    
+     3,444,997,853      instructions              #    0.42  insn per cycle         
+       620,374,402      branches                  #  329.389 M/sec                  
+        19,347,220      branch-misses             #    3.12% of all branches        
+
+       0.538948209 seconds time elapsed
+
+       1.459276000 seconds user
+       0.507903000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.8.in with 19 threads
+<INPUT_PATH>: tests/standard/10k_density_0.8.in
+<NUM_THREADS>: 19
+Number of particles: 10000
+Square size: 10000
+Radius: 50
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.8.in 19':
+
+          1,937.07 msec task-clock                #    3.526 CPUs utilized          
+           192,485      context-switches          #   99.369 K/sec                  
+            44,393      cpu-migrations            #   22.918 K/sec                  
+             1,423      page-faults               #  734.615 /sec                   
+     8,234,257,809      cycles                    #    4.251 GHz                    
+     3,680,684,288      instructions              #    0.45  insn per cycle         
+       668,084,038      branches                  #  344.894 M/sec                  
+        19,127,205      branch-misses             #    2.86% of all branches        
+
+       0.549347090 seconds time elapsed
+
+       1.495084000 seconds user
+       0.535738000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.8.in with 20 threads
+<INPUT_PATH>: tests/standard/10k_density_0.8.in
+<NUM_THREADS>: 20
+Number of particles: 10000
+Square size: 10000
+Radius: 50
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.8.in 20':
+
+          2,229.23 msec task-clock                #    3.560 CPUs utilized          
+           215,325      context-switches          #   96.592 K/sec                  
+            48,799      cpu-migrations            #   21.891 K/sec                  
+             1,426      page-faults               #  639.684 /sec                   
+     8,899,702,495      cycles                    #    3.992 GHz                    
+     3,932,260,210      instructions              #    0.44  insn per cycle         
+       717,814,483      branches                  #  322.002 M/sec                  
+        19,995,727      branch-misses             #    2.79% of all branches        
+
+       0.626162839 seconds time elapsed
+
+       1.738161000 seconds user
+       0.598829000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.8.in with 21 threads
+<INPUT_PATH>: tests/standard/10k_density_0.8.in
+<NUM_THREADS>: 21
+Number of particles: 10000
+Square size: 10000
+Radius: 50
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.8.in 21':
+
+          2,073.10 msec task-clock                #    3.476 CPUs utilized          
+           216,018      context-switches          #  104.200 K/sec                  
+            43,210      cpu-migrations            #   20.843 K/sec                  
+             1,429      page-faults               #  689.306 /sec                   
+     8,827,290,194      cycles                    #    4.258 GHz                    
+     3,917,563,635      instructions              #    0.44  insn per cycle         
+       718,869,131      branches                  #  346.761 M/sec                  
+        19,790,485      branch-misses             #    2.75% of all branches        
+
+       0.596396683 seconds time elapsed
+
+       1.600532000 seconds user
+       0.571357000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.9.in with 8 threads
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 8
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.9.in 8':
+
+          3,958.51 msec task-clock                #    7.614 CPUs utilized          
+               246      context-switches          #   62.145 /sec                   
+                 0      cpu-migrations            #    0.000 /sec                   
+             4,526      page-faults               #    1.143 K/sec                  
+    17,290,041,687      cycles                    #    4.368 GHz                    
+     5,697,745,595      instructions              #    0.33  insn per cycle         
+       748,380,689      branches                  #  189.056 M/sec                  
+        26,989,649      branch-misses             #    3.61% of all branches        
+
+       0.519904933 seconds time elapsed
+
+       3.927518000 seconds user
+       0.031769000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.9.in with 9 threads
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 9
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.9.in 9':
+
+          7,815.75 msec task-clock                #    3.962 CPUs utilized          
+           292,431      context-switches          #   37.416 K/sec                  
+            49,929      cpu-migrations            #    6.388 K/sec                  
+             4,651      page-faults               #  595.080 /sec                   
+    15,073,272,491      cycles                    #    1.929 GHz                    
+     7,738,027,841      instructions              #    0.51  insn per cycle         
+     1,168,484,689      branches                  #  149.504 M/sec                  
+        36,172,308      branch-misses             #    3.10% of all branches        
+
+       1.972884827 seconds time elapsed
+
+       6.561337000 seconds user
+       1.738129000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.9.in with 10 threads
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 10
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.9.in 10':
+
+          3,655.54 msec task-clock                #    3.828 CPUs utilized          
+           286,156      context-switches          #   78.280 K/sec                  
+            71,434      cpu-migrations            #   19.541 K/sec                  
+             4,482      page-faults               #    1.226 K/sec                  
+    14,295,603,893      cycles                    #    3.911 GHz                    
+     7,465,503,168      instructions              #    0.52  insn per cycle         
+     1,139,211,610      branches                  #  311.640 M/sec                  
+        34,656,036      branch-misses             #    3.04% of all branches        
+
+       0.955008972 seconds time elapsed
+
+       2.979713000 seconds user
+       0.880196000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.9.in with 11 threads
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 11
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.9.in 11':
+
+          3,972.96 msec task-clock                #    3.912 CPUs utilized          
+           338,449      context-switches          #   85.188 K/sec                  
+            91,179      cpu-migrations            #   22.950 K/sec                  
+             4,454      page-faults               #    1.121 K/sec                  
+    16,168,990,523      cycles                    #    4.070 GHz                    
+     8,362,446,669      instructions              #    0.52  insn per cycle         
+     1,289,436,563      branches                  #  324.553 M/sec                  
+        38,049,695      branch-misses             #    2.95% of all branches        
+
+       1.015522848 seconds time elapsed
+
+       3.384551000 seconds user
+       0.804365000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.9.in with 15 threads
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 15
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.9.in 15':
+
+          4,819.44 msec task-clock                #    3.814 CPUs utilized          
+           503,038      context-switches          #  104.377 K/sec                  
+           105,095      cpu-migrations            #   21.806 K/sec                  
+             4,597      page-faults               #  953.846 /sec                   
+    19,933,760,184      cycles                    #    4.136 GHz                    
+     9,895,805,118      instructions              #    0.50  insn per cycle         
+     1,628,569,971      branches                  #  337.917 M/sec                  
+        42,286,885      branch-misses             #    2.60% of all branches        
+
+       1.263656359 seconds time elapsed
+
+       3.805114000 seconds user
+       1.268371000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.9.in with 16 threads
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 16
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.9.in 16':
+
+          5,033.75 msec task-clock                #    3.864 CPUs utilized          
+           543,833      context-switches          #  108.037 K/sec                  
+           119,998      cpu-migrations            #   23.839 K/sec                  
+             4,599      page-faults               #  913.634 /sec                   
+    20,718,274,404      cycles                    #    4.116 GHz                    
+    10,312,837,687      instructions              #    0.50  insn per cycle         
+     1,715,382,381      branches                  #  340.777 M/sec                  
+        42,806,838      branch-misses             #    2.50% of all branches        
+
+       1.302878398 seconds time elapsed
+
+       3.818433000 seconds user
+       1.490316000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.9.in with 17 threads
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 17
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.9.in 17':
+
+          5,380.81 msec task-clock                #    3.989 CPUs utilized          
+           583,806      context-switches          #  108.498 K/sec                  
+           135,572      cpu-migrations            #   25.195 K/sec                  
+             4,727      page-faults               #  878.492 /sec                   
+    21,886,162,818      cycles                    #    4.067 GHz                    
+    10,683,044,276      instructions              #    0.49  insn per cycle         
+     1,796,106,421      branches                  #  333.798 M/sec                  
+        43,722,573      branch-misses             #    2.43% of all branches        
+
+       1.348972499 seconds time elapsed
+
+       4.079475000 seconds user
+       1.599874000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.9.in with 19 threads
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 19
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.9.in 19':
+
+          5,777.59 msec task-clock                #    3.961 CPUs utilized          
+           675,400      context-switches          #  116.900 K/sec                  
+           132,676      cpu-migrations            #   22.964 K/sec                  
+             4,684      page-faults               #  810.719 /sec                   
+    23,978,289,194      cycles                    #    4.150 GHz                    
+    11,660,647,551      instructions              #    0.49  insn per cycle         
+     1,993,570,422      branches                  #  345.052 M/sec                  
+        46,427,836      branch-misses             #    2.33% of all branches        
+
+       1.458482186 seconds time elapsed
+
+       4.376228000 seconds user
+       1.718808000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.9.in with 20 threads
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 20
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.9.in 20':
+
+          7,098.35 msec task-clock                #    4.009 CPUs utilized          
+           714,470      context-switches          #  100.653 K/sec                  
+           150,750      cpu-migrations            #   21.237 K/sec                  
+             4,742      page-faults               #  668.043 /sec                   
+    25,129,631,313      cycles                    #    3.540 GHz                    
+    12,047,836,910      instructions              #    0.48  insn per cycle         
+     2,078,205,885      branches                  #  292.773 M/sec                  
+        47,780,060      branch-misses             #    2.30% of all branches        
+
+       1.770793285 seconds time elapsed
+
+       5.406262000 seconds user
+       2.086112000 seconds sys
+
+
+Running perf stat on tests/standard/10k_density_0.9.in with 21 threads
+<INPUT_PATH>: tests/standard/10k_density_0.9.in
+<NUM_THREADS>: 21
+Number of particles: 10000
+Square size: 10000
+Radius: 53
+Number of steps: 100
+
+ Performance counter stats for './sim.perf tests/standard/10k_density_0.9.in 21':
+
+          5,766.20 msec task-clock                #    3.816 CPUs utilized          
+           704,737      context-switches          #  122.219 K/sec                  
+           126,606      cpu-migrations            #   21.957 K/sec                  
+             4,766      page-faults               #  826.540 /sec                   
+    24,120,560,732      cycles                    #    4.183 GHz                    
+    11,654,530,404      instructions              #    0.48  insn per cycle         
+     2,026,596,661      branches                  #  351.461 M/sec                  
+        45,420,334      branch-misses             #    2.24% of all branches        
+
+       1.511234172 seconds time elapsed
+
+       4.435088000 seconds user
+       1.640488000 seconds sys
+
+
+Job ended at Sun Mar  2 07:41:11 PM +08 2025
