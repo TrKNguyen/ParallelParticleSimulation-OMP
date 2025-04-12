@@ -4,3 +4,4 @@ sim.perf
 *.o
 *.o.perf
 !sim_validator.a
+raw_data/
